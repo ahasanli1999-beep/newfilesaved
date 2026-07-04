@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diary</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+    background:#14181c;
+    color:white;
+}
+
+header{
+    background:#1c2228;
+    padding:18px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border-bottom:1px solid #2f3842;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    color:#00c030;
+}
+
+nav a{
+    color:#c9d1d9;
+    margin-left:25px;
+    text-decoration:none;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:40px auto;
+}
+
+h1{
+    margin-bottom:25px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+thead{
+    background:#1d242b;
+}
+
+th{
+    text-align:left;
+    padding:16px;
+    color:#aaa;
+}
+
+td{
+    padding:18px 16px;
+    border-bottom:1px solid #2d343d;
+}
+
+.cover{
+    width:50px;
+    height:70px;
+    border-radius:5px;
+    object-fit:cover;
+}
+
+.rating{
+    color:#00d95f;
+    font-weight:bold;
+}
+
+.status{
+    color:#77d970;
+}
+
+tr:hover{
+    background:#1d242b;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">Checkpoint</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Diary</a>
+<a href="#">Wishlist</a>
+<a href="#">Profile</a>
+</nav>
+
+</header>
+
+<div class="container">
+
+<h1>My Diary</h1>
+
+<table>
+
+<thead>
+<tr>
+<th>Date</th>
+<th></th>
+<th>Game</th>
+<th>Platform</th>
+<th>Hours</th>
+<th>Rating</th>
+<th>Status</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+<td>4 Jul 2026</td>
+<td><img class="cover" src="https://via.placeholder.com/50x70"></td>
+<td>Silent Hill 2</td>
+<td>PC</td>
+<td>18h</td>
+<td class="rating">★★★★★</td>
+<td class="status">Finished</td>
+</tr>
+
+<tr>
+<td>2 Jul 2026</td>
+<td><img class="cover" src="https://via.placeholder.com/50x70"></td>
+<td>Kingdom Come: Deliverance</td>
+<td>PC</td>
+<td>84h</td>
+<td class="rating">★★★★☆</td>
+<td class="status">Finished</td>
+</tr>
+
+<tr>
+<td>29 Jun 2026</td>
+<td><img class="cover" src="https://via.placeholder.com/50x70"></td>
+<td>Stardew Valley</td>
+<td>PC</td>
+<td>61h</td>
+<td class="rating">★★★★★</td>
+<td class="status">Playing</td>
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+</body>
+</html>
+
+<a href="diary.html">Diary</a>
+<a href="wishlist.html">Wishlist</a>
+<a href="profile.html">Profile</a>
